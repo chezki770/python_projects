@@ -18,10 +18,10 @@ def random_num(word_list):
     return random.randint(0, len(word_list['words']) - 1)
 
 def random_word(word_list, number):
-    return list(word_list['words'][number])
+    return list(word_list['words'][number]['word'])
 
 def hint(word_list, number):
-    return word_list['hints'][number]
+    return word_list['words'][number]['hint']
 
 def covered_word_str(random_word):
     return "_ " * len(random_word)
@@ -53,7 +53,6 @@ def main():
         exit(1)
     
     words = word_list['words']
-    hints = word_list['hints']
 
     number_of_players = args.number_of_players
     name_of_players_list = [None] * number_of_players
@@ -99,7 +98,6 @@ def main():
 
         if game_running:
             words.pop(random_number)
-            hints.pop(random_number)
 
     for i in range(number_of_players):
         print(f"{name_of_players_list[i]}, your final score is: {score_of_players_list[i]}")
