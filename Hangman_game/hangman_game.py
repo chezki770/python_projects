@@ -55,6 +55,7 @@ def main():
         random_word = randomWord(word_list, random_number)
         hint_of_random_word = hint(hint_list, random_number)
         cowerd_word = cowerdWord(random_word)
+        tried_letters = set()
         
         while "_" in cowerd_word:
             turn_of_players = turn_of_players % number_of_players + 1
@@ -66,6 +67,13 @@ def main():
             if user_input == ".":
                 game_running = False
                 break
+            
+            if user_input in tried_letters:
+                print("You've already tried that letter. Try again.")
+                turn_of_players -= 1
+                continue
+            else:
+                tried_letters.add(user_input)
             
             if user_input in random_word:
                 cowerd_word = if_letter_in_word(user_input, random_word, cowerd_word)
@@ -83,3 +91,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
