@@ -1,0 +1,177 @@
+[
+    {
+        "question": "What is the capital of France?",
+        "options": ["Paris", "London", "Rome", "Berlin"],
+        "correct_answer": 0,
+        "category": "Geography",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What is 2 + 2?",
+        "options": ["3", "4", "5", "6"],
+        "correct_answer": 1,
+        "category": "Math",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Who wrote 'Romeo and Juliet'?",
+        "options": ["Charles Dickens", "William Shakespeare", "Jane Austen", "Mark Twain"],
+        "correct_answer": 1,
+        "category": "Literature",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the chemical symbol for gold?",
+        "options": ["Go", "Gd", "Au", "Ag"],
+        "correct_answer": 2,
+        "category": "Science",
+        "difficulty": "medium"
+    },
+    {
+        "question": "In which year did World War II end?",
+        "options": ["1943", "1944", "1945", "1946"],
+        "correct_answer": 2,
+        "category": "History",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the largest planet in our solar system?",
+        "options": ["Earth", "Mars", "Jupiter", "Saturn"],
+        "correct_answer": 2,
+        "category": "Science",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Who painted the Mona Lisa?",
+        "options": ["Vincent van Gogh", "Leonardo da Vinci", "Pablo Picasso", "Michelangelo"],
+        "correct_answer": 1,
+        "category": "Art",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What is the square root of 144?",
+        "options": ["10", "12", "14", "16"],
+        "correct_answer": 1,
+        "category": "Math",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which country is home to the kangaroo?",
+        "options": ["New Zealand", "South Africa", "Australia", "Brazil"],
+        "correct_answer": 2,
+        "category": "Geography",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Who was the first President of the United States?",
+        "options": ["Thomas Jefferson", "John Adams", "George Washington", "Benjamin Franklin"],
+        "correct_answer": 2,
+        "category": "History",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What is the capital of Japan?",
+        "options": ["Seoul", "Beijing", "Tokyo", "Bangkok"],
+        "correct_answer": 2,
+        "category": "Geography",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Which planet is known as the Red Planet?",
+        "options": ["Venus", "Mars", "Jupiter", "Mercury"],
+        "correct_answer": 1,
+        "category": "Science",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What is the largest ocean on Earth?",
+        "options": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
+        "correct_answer": 3,
+        "category": "Geography",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Who wrote '1984'?",
+        "options": ["George Orwell", "Aldous Huxley", "Ray Bradbury", "H.G. Wells"],
+        "correct_answer": 0,
+        "category": "Literature",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the chemical formula for water?",
+        "options": ["CO2", "H2O", "NaCl", "O2"],
+        "correct_answer": 1,
+        "category": "Science",
+        "difficulty": "easy"
+    },
+    {
+        "question": "In what year did the Titanic sink?",
+        "options": ["1910", "1912", "1915", "1920"],
+        "correct_answer": 1,
+        "category": "History",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Who painted 'The Starry Night'?",
+        "options": ["Claude Monet", "Salvador Dali", "Vincent van Gogh", "Pablo Picasso"],
+        "correct_answer": 2,
+        "category": "Art",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the largest mammal in the world?",
+        "options": ["African Elephant", "Blue Whale", "Giraffe", "Hippopotamus"],
+        "correct_answer": 1,
+        "category": "Science",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What is the capital of Brazil?",
+        "options": ["Rio de Janeiro", "São Paulo", "Brasília", "Salvador"],
+        "correct_answer": 2,
+        "category": "Geography",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Who wrote 'To Kill a Mockingbird'?",
+        "options": ["Harper Lee", "John Steinbeck", "F. Scott Fitzgerald", "Ernest Hemingway"],
+        "correct_answer": 0,
+        "category": "Literature",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the smallest prime number?",
+        "options": ["0", "1", "2", "3"],
+        "correct_answer": 2,
+        "category": "Math",
+        "difficulty": "hard"
+    },
+    {
+        "question": "Which element has the highest melting point?",
+        "options": ["Carbon", "Tungsten", "Iron", "Platinum"],
+        "correct_answer": 1,
+        "category": "Science",
+        "difficulty": "hard"
+    },
+    {
+        "question": "In which year did the Berlin Wall fall?",
+        "options": ["1987", "1988", "1989", "1990"],
+        "correct_answer": 2,
+        "category": "History",
+        "difficulty": "hard"
+    },
+    {
+        "question": "Who composed the opera 'Don Giovanni'?",
+        "options": ["Ludwig van Beethoven", "Wolfgang Amadeus Mozart", "Johann Sebastian Bach", "Franz Schubert"],
+        "correct_answer": 1,
+        "category": "Music",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What is the derivative of e^x?",
+        "options": ["x", "1", "e^x", "ln(x)"],
+        "correct_answer": 2,
+        "category": "Math",
+        "difficulty": "hard"
+    }
+]
